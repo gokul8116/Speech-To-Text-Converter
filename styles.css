@@ -1,0 +1,51 @@
+body {
+    background-color:chartreuse;
+    display: flex;
+    justify-content: center; /* Center container horizontally */
+    align-items: center; /* Center container vertically */
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center items horizontally within container */
+    text-align: center; /* Center text inside the container */
+}
+
+h1 {
+    margin-bottom: 2rem;
+    opacity: .8;
+}
+
+#text {
+    width: 500px;
+    height: 160px;
+    overflow: hidden;
+    background-color: #cdcdcd;
+    border: none;
+    color: #222;
+    font-size: 24px;
+    resize: none;
+    line-height: 40px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 1rem; /* Margin between textarea and other elements */
+}
+
+.playButton {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 1rem; /* Margin between button and other elements */
+    cursor: pointer;
+}
+
+.playButton:hover {
+    box-shadow: 0 6px 20px 0 #00ff15;
+}
+
+.instruction {
+    margin-top: 1rem;
+}
